@@ -1,0 +1,8 @@
+sudo mysql
+
+CREATE DATABASE guiga;
+
+SHOW DATABASES;
+
+USE guiga;
+
