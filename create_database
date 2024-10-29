@@ -1,3 +1,6 @@
+checar mysql server ============================================================ 
+systemctl status mysql (stop, start, status, and restart)
+================================================================================
 sudo mysql
 
 CREATE DATABASE guiga;
@@ -6,3 +9,9 @@ SHOW DATABASES;
 
 USE guiga;
 
+mudar senha do mysql ==============================================================
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+flush privileges;
+====================================================================================
